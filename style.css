@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(135deg, #ffffff, #203a43, #000000) !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card{
+    background: rgba(238, 158, 158, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 25px !important;
+    transition: all 0.4s ease;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(17, 9, 9, 0.4) !important;
+}
+
+h1{
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 10px rgba(121, 43, 43, 0.15);
+}
+
+p{
+    color: #555;
+    font-size: 1.2rem;
+}
+
+button{
+    border-radius: 15px !important;
+    font-weight: bold !important;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(184, 221, 204, 0.4);
+}
